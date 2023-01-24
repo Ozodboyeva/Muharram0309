@@ -1,0 +1,269 @@
+/* Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); /* Roboto */
+@font-face {
+    font-family:' GT-Super Txt-Trial Bd';
+    src: url(./GT-Super-Text-Bold-Trial.otf);
+}
+:root{
+    --fontFamilyRoboto: "Roboto";
+    --colorletter:#F09C96;
+    --backroundful: #023A15;
+
+}
+body{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+     max-width: 1200px;
+     margin: 0 auto;
+     padding:5px 0px;
+    
+
+}
+nav{
+   margin-top: 40px;
+   background-color:var(--backroundful) ;
+   
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background-color:var(--backroundful) ; */
+
+}
+.nav-items{
+    display:flex;
+    align-items: center;
+    list-style: none;
+   
+}
+.nav-item{
+    margin-right: 32px;
+    font-family: var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* green-section */
+.green{
+    background-color:var(--backroundful) ;
+    
+    
+}
+.two-parts{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.green-text{
+font-family: GT-Super;   
+font-style: normal;
+font-weight: 500;
+font-size: 103px;
+line-height: 110px;
+letter-spacing: 2px;
+color: #FFFFFF;
+}
+
+span{
+    color:var(--colorletter);
+   
+}
+
+
+.btn-2{
+    margin-top: 55px;
+    width:185px;
+    height:52px;
+    border-radius: 4px;
+
+}
+p{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color:#FFFFFF;
+}
+/* done section
+  */
+.learners{
+    display:flex;
+    justify-content: space-between;
+}
+
+.take-care h2{
+    margin-top: 50px;
+    font-family: 'GT Super Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 84px;
+    color: black;
+
+}
+
+.take-care p{
+    font-family: var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+
+}
+.rasm{
+    margin-top:90px;
+    width:557px;
+    height: 371px;
+    position: absolute;
+    
+}
+.bearvoy{
+    padding-top:230px;
+}
+/* team section done */
+.create{
+    background-color: #FFE6E2;;
+    margin-top:200px;
+
+}
+.create-texts h3{
+    margin-top: 200px;
+    font-family: 'GT Super Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 59px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #000000;
+
+
+}
+.create-texts p3{
+    margin-top:77px;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+
+}
+.txwelve h3{
+    font-family: 'GT Super Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 53px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #000000;
+
+}
+.img2{
+    height: 535px;
+    margin-right: 90%;
+}
+
+
+
+.pic{
+    margin:85px;
+    padding-left:180px;
+    position: relative;
+    
+     /* position: absolute;
+     height: 543px;
+     left: 0%;
+     right: 0%;
+     top: 0px; */
+    
+}
+/* create done */
+
+/* educate section */
+.sleep{
+    display: flex;
+    justify-content: space-between;
+}
+.four h4{
+    font-family: 'GT Super Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 53px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #000000;
+
+}
+.four p5{
+    margin-bottom: -30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+
+
+}
+/* Educated done */
+.done{
+    background-color: #023A15;
+}
+.finish{
+    margin-top:40px;
+}
+.finish h1{
+    font-family: 'GT Super Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 106px;
+    line-height: 110px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.btn-3{
+    margin-left: 41%;
+    margin-top: 55px;
+    width:195px;
+    height:60px;
+    border-radius: 4px;
+    
+} 
+.p7{
+    padding-bottom: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+
+}
+.footer{
+    padding-top: 70px;   
+    /* background-color: #023A15; */ 
+    text-align: center;
+    font-family:var(--fontFamilyRoboto);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
